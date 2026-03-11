@@ -1,0 +1,13 @@
+1st (git --version, user.name, user.email, git --list, mkdir Demo1, cd Demo1, git init, notepad file1.txt, 
+ls -a, git status, touch file1.txt, echo "hello" >file1.txt, cat file1.txt, git add file1.txt, git log, 
+git commit -m "initial commit", git log, git remote add origin "url Enter", git branch -m master, 
+git push -u origin master,git clone "Enter url", git reset --soft or git reset --hard)
+2nd(mkdir git-merge, cd git-merge, git init, echo "initial line of content" >merge.txt, git add ., 
+git commit -m "add initialcontent", git checkout -b branch-a, echo "content from branch A" >merge.txt,
+git commit -am "modified content on branch A", git checkout master, git checkout -b branch-b, 
+echo "content from branch b" >merge.txt, git commit -am "modified content on branch b", echo "content from branch B" >merge.txt,
+git commit -am "modified content on branch B", git checkout branch-a, git merge branch-b, cat merge.txt, 
+echo "combined content from A and B" >merge.txt, cat merge.txt, git add merge.txt, git commit -am "merge conflict reolved")
+3rd(sudo apt update, sudo apt install openjdk-17-jdk -y, java --version, ls, sudo rm jenkins.war, 
+wget https://get.jenkins.io/war-stable/latest/jenkins.war, java -jar jenkins.war --httpPort=8083 (search browser https://localhost:8083),
+webhook(sudo apt update, sudo apt install snapd -y, sudo nap install ngrok, ngrok version, ngrok http 8083))
